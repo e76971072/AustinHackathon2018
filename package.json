@@ -1,25 +1,26 @@
 {
-  "name": "austinhackathon2018",
-  "version": "1.0.0",
-  "description": "Use Canon's image recognition API!",
-  "main": "server.js",
-  "scripts": {
-    "test": "test",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidho104/AustinHackathon2018.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/davidho104/AustinHackathon2018/issues"
-  },
-  "homepage": "https://github.com/davidho104/AustinHackathon2018#readme",
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "request": "^2.88.0",
-    "util": "^0.11.1"
-  }
+	"name": "austinhackathon2018",
+	"version": "1.0.0",
+	"description": "Use Canon's image recognition API!",
+	"main": "server.js",
+	"scripts": {
+		"test": "test",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/davidho104/AustinHackathon2018.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/davidho104/AustinHackathon2018/issues"
+	},
+	"homepage": "https://github.com/davidho104/AustinHackathon2018#readme",
+	"dependencies": {
+		"fs": "0.0.1-security",
+		"nodemon": "^1.18.6",
+		"request": "^2.88.0",
+		"util": "^0.11.1"
+	}
 }
