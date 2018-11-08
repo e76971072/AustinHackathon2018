@@ -1,10 +1,12 @@
 var sendImage = require('./modules/sendImage');
-var http = require('http');
 
-http.createServer(function(req, res) {
-	const sampleImage = 'photos/bedroom.jpg';
-	sendImage.sendImage(sampleImage);
-	res.writeHead(200, { 'Content-Type': 'text/html' });
-	res.end('Hello World!');
-	console.log('Listening on port 8080!');
-}).listen(8080);
+// const sampleImage = 'photos/bedroom.jpg';
+// sendImage.sendImage(sampleImage);
+const path = require('path');
+const express = require('express');
+const app = express();
+const port = 8081;
+app.use(express.static(__dirname + '/'));
+app.get('/', (req, res) => res.sendFile(path.resolve('index.html')));
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
