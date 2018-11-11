@@ -22,6 +22,6 @@ To install and run Wardrobe on your own device, simply clone the repository. Run
 
 Wardrobe was originally created by David Ho, Iris Han, John Moen, Kevin Nguyen, Lee Reese.
 
-**Copyright &copy; 2018-present Kevin Nguyen.**
+**Copyright &copy; 2016-present Kevin Nguyen.**
 
 *Please provide attribution, it is greatly appreciated.*
