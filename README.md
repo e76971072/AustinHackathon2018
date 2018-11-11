@@ -4,7 +4,9 @@
 
 ## About
 
-Wardrobe is a realtime object translation app, using Microsoft's Cognitive Services Computer Vision library to describe and translate objects around you simply by pointing your phone's camera at it. This project was created and featured at HackTX2016, where it won 3rd Place overall, as well as API prizes from Goldman Sachs, HBK, Microsoft, Facebook, CDK, and 1517.
+Wardrobe is an app that will allow users to take snapshots of their various clothing items and store them in the app. The user can then select a top they own and the app will suggest bottoms to choose from using artificial intelligence and integrated algorithms. 
+The app makes suggestions by analyzing the predominate color of the clothing items and uses an algorithm to select the complementary color.
+
 
 ## Installation
 
